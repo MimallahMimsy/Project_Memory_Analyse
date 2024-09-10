@@ -26,7 +26,7 @@ f_bot = Frame(root)
 
 ent1 = Entry(f_top, width=20)
 ent2 = Entry(f_bot, width=20)
-but = Button(root, text='Поиск', command=search)
+but = Button(root, text='Search', command=search)
 l1 = Label(f_top, width=50, text='Enter a value for a BIG file:')
 l2 = Label(f_bot, width=80,
            text='Enter the path to the directory being examined; if the window is empty, the startup directory is examined:')
